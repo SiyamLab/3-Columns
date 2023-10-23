@@ -1,0 +1,110 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    width: 600px;
+    align-items: flex-end;
+    text-align: left;
+    
+}
+.box{
+    height: 50px;
+    width: 600px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: 56px;
+    padding: 0px;
+}
+.box-left{
+    background-color: rgb(229, 133, 33);
+    height: 300px;
+    width: 500px;
+    color: rgb(255, 236, 225);
+    position: relative;
+    
+}
+.box-middle{
+    background-color: rgb(1, 105, 114);
+    height: 300px;
+    width: 500px;
+    color: rgb(255, 236, 225);
+    position: relative;
+    
+}
+.box-right{
+    background-color: rgb(0, 64, 63);
+    height: 300px;
+    width: 500px;
+    color: rgb(255, 236, 225);
+    position: relative;
+   
+}
+.img1{
+    position: relative;
+    left: -60px;
+}
+.img2{
+    position: relative;
+    left: -60px;
+}
+.img3{
+    position: relative;
+    left: -60px;
+}
+.sadans{
+    position: relative;
+    left: -40px;
+}
+.lm1{
+    border-radius: 20px;
+    width: 100px;
+    height: 23px;
+    position: relative;
+    right: -50px;
+    cursor: pointer;
+    background-color: #fff;
+    border: solid 2px #fff;
+    color: rgb(229, 133, 33);
+}
+.lm1:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.lm2{
+    border-radius: 20px;
+    width: 100px;
+    height: 23px;
+    position: relative;
+    right: -50px;
+    cursor: pointer;
+    background-color: #fff;
+    border: solid 2px #fff;
+    color: rgb(1, 105, 114);
+}
+
+.lm2:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.lm3{
+    border-radius: 20px;
+    width: 100px;
+    height: 23px;
+    position: relative;
+    right: -50px;
+    cursor: pointer;
+    background-color: #fff;
+    border: solid 2px #fff;
+    color:  rgb(0, 64, 63);
+}
+.lm3:hover{
+    background-color: transparent;
+    color: #fff;
+}
